@@ -12,6 +12,7 @@ function Model(props) {
     id: props.id,
     editData: edit,
   };
+  console.dir({obj:2})
   function submitHandler(e) {
     e.preventDefault();
     props.updateitem(editObj);
